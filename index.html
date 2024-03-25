@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>HeartCore Startup Calculator</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>HeartCore Startup Calculator</h1>
+    <form id="surveyForm">
+      <div id="questionsContainer"></div>
+      <div class="buttons">
+        <button type="button" onclick="goBack()">Back</button>
+        <button type="button" onclick="goNext()">Next</button>
+      </div>
+    </form>
+    <div id="result" class="result">
+      <h2>Result:</h2>
+      <p>Total Score: <span id="totalScore"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
