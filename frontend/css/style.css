@@ -163,3 +163,8 @@
     padding: 0px 65px;
 }
 
+/* Add transitions to the body to create a fade effect */
+body {
+    transition: opacity 0.5s ease;
+  }
+  
