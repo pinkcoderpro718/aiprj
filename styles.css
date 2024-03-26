@@ -14,6 +14,51 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.containerMiddle {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.text-containerOne {
+    border-radius: 5px;
+    position: relative; 
+
+}
+
+.text-containerOne p {
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.text-containerOne div {
+    
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+}
+
+.text-containerTwo {
+    background: #37507A; 
+    border-radius: 5px;
+    position: relative; 
+    height: 15vh;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.text-containerTwo p {
+    color: #ffffff;
+    padding: 14px;
+    
+}
+
 h1 {
   text-align: center;
   margin-bottom: 20px;
